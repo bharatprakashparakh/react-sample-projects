@@ -25,9 +25,9 @@ pipeline {
 
         stage('Build') {
             steps {
-                script {
-                    echo "Building the React app..."
-                    sh 'npm run build'  // Build the React app
+                // Build Next.js project
+                nodejs(nodeJSInstallationName: 'NodeJS 21.1') {
+                    sh 'npm run build'
                 }
             }
         }
