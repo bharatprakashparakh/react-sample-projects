@@ -1,10 +1,9 @@
 {
-  "scripts": {
-    "build": "next build",
-    "start": "next start"
-  },
-  "engines": {
-    "node": "20.14.0"
+   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "prop-types": "^15.7.2"
